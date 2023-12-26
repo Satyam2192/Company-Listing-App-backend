@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000
 
 // Apply CORS middleware before any route handlers
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://company-listing-app-five.vercel.app/',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204,
